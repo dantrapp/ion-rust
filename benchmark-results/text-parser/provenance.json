@@ -1,0 +1,71 @@
+{
+  "baseline": "17b684c84615637859cac1c388490a11b54d13b9",
+  "cpu": "Apple M4",
+  "physical_cores": 10,
+  "benchmark_threads": 1,
+  "os": "macOS 15.6.1 (24G90)",
+  "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)\nbinary: rustc\ncommit-hash: e408947bfd200af42db322daf0fadfe7e26d3bd1\ncommit-date: 2026-03-25\nhost: aarch64-apple-darwin\nrelease: 1.94.1\nLLVM version: 21.1.8\n",
+  "build": [
+    "cargo",
+    "bench",
+    "--features",
+    "experimental",
+    "--bench",
+    "read_many_structs",
+    "--no-run"
+  ],
+  "cache": "in-memory data, one-second warmup for every benchmark in each process",
+  "input": "Upstream read_many_structs: 10,000 log records; added same records with indentation/comments and 10,000 compact/spaced integer lists. Synthetic fixtures, not production traces.",
+  "scope_limit": "Apple Silicon only; no x86_64 or Graviton runtime measurement.",
+  "lock_sha256": "de7583ecc7b1fe01bdfe0ebf2955053daf5eba0667933f9125c4394d634bc2c7",
+  "branch": "perf/text-whitespace",
+  "build_profile": "bench optimized, inherited release lto=true/codegen-units=1",
+  "order": [
+    "baseline",
+    "candidate",
+    "candidate",
+    "baseline",
+    "baseline",
+    "candidate"
+  ],
+  "summary_method": "Median of three per-process Criterion mean point estimates; raw samples and confidence intervals retained.",
+  "benchmark_source_sha256": "1ec313937367c83668035b76fac235483fb355ddba4b96438f26d20e70d1879f",
+  "candidate": "ff27812835ee3298355ec6dbe4a58a5dba711972",
+  "candidate_url": "https://github.com/dantrapp/ion-rust/commit/ff27812835ee3298355ec6dbe4a58a5dba711972",
+  "checks": {
+    "test-ion-hash": {
+      "passed": 9820,
+      "failed": 0,
+      "ignored": 1
+    },
+    "test-default": {
+      "passed": 1233,
+      "failed": 0,
+      "ignored": 1
+    },
+    "test-experimental": {
+      "passed": 9868,
+      "failed": 0,
+      "ignored": 1
+    },
+    "test-all-features": {
+      "passed": 9895,
+      "failed": 0,
+      "ignored": 1
+    },
+    "clippy": "passed: cargo clippy --workspace --all-features --tests -- -Dwarnings",
+    "fmt": "passed: cargo fmt --all -- --check",
+    "doc": "passed: cargo doc --document-private-items --all-features --no-deps"
+  },
+  "differential": {
+    "whitespace_inputs": 274514,
+    "identifier_and_field_outcomes": 69292,
+    "whitespace_comparison": "Result debug output and consumed offsets",
+    "identifier_field_comparison": "Successful result debug output and consumed offsets; error categories (Incomplete, Backtrack, Cut)"
+  },
+  "binary_sha256": {
+    "baseline": "05ea23d84a9ae39b3ed86e1348b6344e53e9c31a236d912848ac1d2928d435a4",
+    "candidate": "c15e6c7e2da87f2752233a8645f9245da5f9ee978a7677f4bfa3b1f8290eac1c"
+  },
+  "controls": "Compact lists and all three binary workloads included. Binary performance changes are not attributed to this text parser patch."
+}

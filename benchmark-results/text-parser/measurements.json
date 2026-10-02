@@ -1,0 +1,722 @@
+[
+  {
+    "run": 1,
+    "variant": "baseline",
+    "id": "binary 1.0/read 'format' field",
+    "mean_ns": 1459223.0977705657,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 1453607.2232804948,
+      "upper_bound": 1469065.336940242
+    },
+    "median_ns": 1455325.7738095238
+  },
+  {
+    "run": 1,
+    "variant": "baseline",
+    "id": "binary 1.0/read all",
+    "mean_ns": 3412251.8767281896,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 3396953.882195887,
+      "upper_bound": 3439797.4493848025
+    },
+    "median_ns": 3396740.722222222
+  },
+  {
+    "run": 1,
+    "variant": "baseline",
+    "id": "binary 1.0/scan all",
+    "mean_ns": 220776.04323437088,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 217657.5374594507,
+      "upper_bound": 225343.50816903877
+    },
+    "median_ns": 219732.24431818182
+  },
+  {
+    "run": 1,
+    "variant": "baseline",
+    "id": "text 1.0/read 'format' field",
+    "mean_ns": 22959226.68,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 21264978.38,
+      "upper_bound": 25709615.264250003
+    },
+    "median_ns": 21077120.9
+  },
+  {
+    "run": 1,
+    "variant": "baseline",
+    "id": "text 1.0/read all",
+    "mean_ns": 25030997.9125,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 24836614.585625,
+      "upper_bound": 25360630.1875
+    },
+    "median_ns": 24853052.125
+  },
+  {
+    "run": 1,
+    "variant": "baseline",
+    "id": "text 1.0/scan all",
+    "mean_ns": 19770842.029999994,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 19615927.351499997,
+      "upper_bound": 20035247.781999998
+    },
+    "median_ns": 19621091.6
+  },
+  {
+    "run": 1,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/commented records",
+    "mean_ns": 25512151.0,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 25271119.426250003,
+      "upper_bound": 25884694.4984375
+    },
+    "median_ns": 25233114.625
+  },
+  {
+    "run": 1,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/compact lists",
+    "mean_ns": 4407671.271293342,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 4345812.066898034,
+      "upper_bound": 4490419.737780291
+    },
+    "median_ns": 4338945.628289474
+  },
+  {
+    "run": 1,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/pretty records",
+    "mean_ns": 22884670.809999995,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 22769619.507,
+      "upper_bound": 23095342.92
+    },
+    "median_ns": 22792508.3
+  },
+  {
+    "run": 1,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/spaced lists",
+    "mean_ns": 6322740.158193787,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 6261529.295012921,
+      "upper_bound": 6410221.558422008
+    },
+    "median_ns": 6258262.958333334
+  },
+  {
+    "run": 2,
+    "variant": "candidate",
+    "id": "binary 1.0/read 'format' field",
+    "mean_ns": 1490784.636399751,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 1477598.6374340868,
+      "upper_bound": 1507982.4839348975
+    },
+    "median_ns": 1477880.7976190476
+  },
+  {
+    "run": 2,
+    "variant": "candidate",
+    "id": "binary 1.0/read all",
+    "mean_ns": 3398093.201877672,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 3384525.5936740623,
+      "upper_bound": 3419575.2893073345
+    },
+    "median_ns": 3386466.6916666664
+  },
+  {
+    "run": 2,
+    "variant": "candidate",
+    "id": "binary 1.0/scan all",
+    "mean_ns": 228981.92035598672,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 227350.17305973617,
+      "upper_bound": 230955.81340385892
+    },
+    "median_ns": 227926.58782051282
+  },
+  {
+    "run": 2,
+    "variant": "candidate",
+    "id": "text 1.0/read 'format' field",
+    "mean_ns": 10355759.27894749,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 10198971.10176823,
+      "upper_bound": 10539513.023747148
+    },
+    "median_ns": 10155041.666666666
+  },
+  {
+    "run": 2,
+    "variant": "candidate",
+    "id": "text 1.0/read all",
+    "mean_ns": 14500212.38054948,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 14401606.406890636,
+      "upper_bound": 14613725.59415758
+    },
+    "median_ns": 14460981.076923076
+  },
+  {
+    "run": 2,
+    "variant": "candidate",
+    "id": "text 1.0/scan all",
+    "mean_ns": 9555311.238559391,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 9324914.444948062,
+      "upper_bound": 9852738.754372284
+    },
+    "median_ns": 9352831.169444444
+  },
+  {
+    "run": 2,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/commented records",
+    "mean_ns": 16732067.409143925,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 16514405.518398942,
+      "upper_bound": 17129527.977329828
+    },
+    "median_ns": 16521653.666666668
+  },
+  {
+    "run": 2,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/compact lists",
+    "mean_ns": 4359967.534599965,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 4329979.613249014,
+      "upper_bound": 4412407.3480119575
+    },
+    "median_ns": 4330347.046296297
+  },
+  {
+    "run": 2,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/pretty records",
+    "mean_ns": 17237993.579681776,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 15459730.536694163,
+      "upper_bound": 20609661.09381869
+    },
+    "median_ns": 15431527.083333332
+  },
+  {
+    "run": 2,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/spaced lists",
+    "mean_ns": 4682644.675844478,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 4539864.820321857,
+      "upper_bound": 4867966.082866234
+    },
+    "median_ns": 4494949.305555556
+  },
+  {
+    "run": 3,
+    "variant": "candidate",
+    "id": "binary 1.0/read 'format' field",
+    "mean_ns": 1501612.4813681277,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 1481250.412884978,
+      "upper_bound": 1539832.897103728
+    },
+    "median_ns": 1481071.0146520147
+  },
+  {
+    "run": 3,
+    "variant": "candidate",
+    "id": "binary 1.0/read all",
+    "mean_ns": 3377536.8615581156,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 3374934.25702124,
+      "upper_bound": 3380639.086038771
+    },
+    "median_ns": 3376908.0
+  },
+  {
+    "run": 3,
+    "variant": "candidate",
+    "id": "binary 1.0/scan all",
+    "mean_ns": 228891.9317391674,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 227697.30303181495,
+      "upper_bound": 230079.0180231432
+    },
+    "median_ns": 229743.6274853801
+  },
+  {
+    "run": 3,
+    "variant": "candidate",
+    "id": "text 1.0/read 'format' field",
+    "mean_ns": 10584340.188304236,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 10408635.50236614,
+      "upper_bound": 10861097.064721365
+    },
+    "median_ns": 10459042.066666666
+  },
+  {
+    "run": 3,
+    "variant": "candidate",
+    "id": "text 1.0/read all",
+    "mean_ns": 14591886.082682405,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 14483345.638643552,
+      "upper_bound": 14761260.399103507
+    },
+    "median_ns": 14513455.6875
+  },
+  {
+    "run": 3,
+    "variant": "candidate",
+    "id": "text 1.0/scan all",
+    "mean_ns": 9373724.096567927,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 9207538.18460153,
+      "upper_bound": 9606241.642215932
+    },
+    "median_ns": 9218972.96111111
+  },
+  {
+    "run": 3,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/commented records",
+    "mean_ns": 16471416.348767871,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 16356469.08464735,
+      "upper_bound": 16588972.742657494
+    },
+    "median_ns": 16491576.792207792
+  },
+  {
+    "run": 3,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/compact lists",
+    "mean_ns": 4546983.50549775,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 4336760.977145557,
+      "upper_bound": 4915111.269335257
+    },
+    "median_ns": 4326310.381481482
+  },
+  {
+    "run": 3,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/pretty records",
+    "mean_ns": 15738287.565569986,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 15455055.134566648,
+      "upper_bound": 16141630.133009853
+    },
+    "median_ns": 15459338.006410256
+  },
+  {
+    "run": 3,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/spaced lists",
+    "mean_ns": 4560519.591166695,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 4505482.73076477,
+      "upper_bound": 4641326.740070235
+    },
+    "median_ns": 4495496.53125
+  },
+  {
+    "run": 4,
+    "variant": "baseline",
+    "id": "binary 1.0/read 'format' field",
+    "mean_ns": 1593185.0679791954,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 1505164.3784944182,
+      "upper_bound": 1732850.1289481805
+    },
+    "median_ns": 1509571.0992063493
+  },
+  {
+    "run": 4,
+    "variant": "baseline",
+    "id": "binary 1.0/read all",
+    "mean_ns": 3403712.646162545,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 3400192.886928571,
+      "upper_bound": 3407805.999668186
+    },
+    "median_ns": 3401216.722222222
+  },
+  {
+    "run": 4,
+    "variant": "baseline",
+    "id": "binary 1.0/scan all",
+    "mean_ns": 223420.38863440944,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 222004.08825190665,
+      "upper_bound": 224881.46719699888
+    },
+    "median_ns": 223348.6380952381
+  },
+  {
+    "run": 4,
+    "variant": "baseline",
+    "id": "text 1.0/read 'format' field",
+    "mean_ns": 20927985.01,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 20802377.439000003,
+      "upper_bound": 21154258.36
+    },
+    "median_ns": 20813045.8
+  },
+  {
+    "run": 4,
+    "variant": "baseline",
+    "id": "text 1.0/read all",
+    "mean_ns": 26685529.1625,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 25757960.3875,
+      "upper_bound": 27757634.2434375
+    },
+    "median_ns": 25546234.375
+  },
+  {
+    "run": 4,
+    "variant": "baseline",
+    "id": "text 1.0/scan all",
+    "mean_ns": 19925172.575,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 19800925.526249997,
+      "upper_bound": 20139360.63604166
+    },
+    "median_ns": 19799868.083333332
+  },
+  {
+    "run": 4,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/commented records",
+    "mean_ns": 25897923.9625,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 25478696.3875,
+      "upper_bound": 26526068.577812497
+    },
+    "median_ns": 25422500.0
+  },
+  {
+    "run": 4,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/compact lists",
+    "mean_ns": 4362646.792671477,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 4333311.283900408,
+      "upper_bound": 4410703.399261058
+    },
+    "median_ns": 4333323.251322752
+  },
+  {
+    "run": 4,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/pretty records",
+    "mean_ns": 23041545.82,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 22848050.81,
+      "upper_bound": 23332110.012749996
+    },
+    "median_ns": 22837179.2
+  },
+  {
+    "run": 4,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/spaced lists",
+    "mean_ns": 6277923.426774182,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 6263397.525482267,
+      "upper_bound": 6300900.9042963125
+    },
+    "median_ns": 6269633.804298643
+  },
+  {
+    "run": 5,
+    "variant": "baseline",
+    "id": "binary 1.0/read 'format' field",
+    "mean_ns": 1480846.943306833,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 1462701.290443882,
+      "upper_bound": 1513670.3318394774
+    },
+    "median_ns": 1462431.5428571429
+  },
+  {
+    "run": 5,
+    "variant": "baseline",
+    "id": "binary 1.0/read all",
+    "mean_ns": 3441624.846027296,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 3420591.0985757085,
+      "upper_bound": 3465631.4160906547
+    },
+    "median_ns": 3443039.855820106
+  },
+  {
+    "run": 5,
+    "variant": "baseline",
+    "id": "binary 1.0/scan all",
+    "mean_ns": 257783.1050503416,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 233958.3091594799,
+      "upper_bound": 290025.8963297316
+    },
+    "median_ns": 232681.0223577236
+  },
+  {
+    "run": 5,
+    "variant": "baseline",
+    "id": "text 1.0/read 'format' field",
+    "mean_ns": 20929305.41,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 20792369.968999997,
+      "upper_bound": 21085336.249999996
+    },
+    "median_ns": 20755875.0
+  },
+  {
+    "run": 5,
+    "variant": "baseline",
+    "id": "text 1.0/read all",
+    "mean_ns": 25070345.02,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 24876158.96175,
+      "upper_bound": 25361023.1805
+    },
+    "median_ns": 24905175.0
+  },
+  {
+    "run": 5,
+    "variant": "baseline",
+    "id": "text 1.0/scan all",
+    "mean_ns": 19845648.26666667,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 19676190.28333334,
+      "upper_bound": 20082593.486458328
+    },
+    "median_ns": 19678750.083333336
+  },
+  {
+    "run": 5,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/commented records",
+    "mean_ns": 25400020.3125,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 25231454.4415625,
+      "upper_bound": 25606866.7384375
+    },
+    "median_ns": 25185687.5
+  },
+  {
+    "run": 5,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/compact lists",
+    "mean_ns": 4346246.793136948,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 4335314.928636886,
+      "upper_bound": 4358745.740968622
+    },
+    "median_ns": 4333392.366666667
+  },
+  {
+    "run": 5,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/pretty records",
+    "mean_ns": 22839225.025,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 22771573.8978125,
+      "upper_bound": 22926663.4021875
+    },
+    "median_ns": 22781859.5
+  },
+  {
+    "run": 5,
+    "variant": "baseline",
+    "id": "text 1.0 whitespace/spaced lists",
+    "mean_ns": 6275419.115220886,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 6256623.703232081,
+      "upper_bound": 6308858.057364903
+    },
+    "median_ns": 6257741.22368421
+  },
+  {
+    "run": 6,
+    "variant": "candidate",
+    "id": "binary 1.0/read 'format' field",
+    "mean_ns": 1472053.9007933966,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 1470989.8797038791,
+      "upper_bound": 1473146.5415708865
+    },
+    "median_ns": 1471717.1340852128
+  },
+  {
+    "run": 6,
+    "variant": "candidate",
+    "id": "binary 1.0/read all",
+    "mean_ns": 3673990.7825652054,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 3399001.58011612,
+      "upper_bound": 4194278.233322429
+    },
+    "median_ns": 3387020.84375
+  },
+  {
+    "run": 6,
+    "variant": "candidate",
+    "id": "binary 1.0/scan all",
+    "mean_ns": 225031.80269984395,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 222426.5129148566,
+      "upper_bound": 227816.36134501087
+    },
+    "median_ns": 222028.59423374612
+  },
+  {
+    "run": 6,
+    "variant": "candidate",
+    "id": "text 1.0/read 'format' field",
+    "mean_ns": 10548550.335529126,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 10452997.068407852,
+      "upper_bound": 10682719.188537352
+    },
+    "median_ns": 10505526.041666668
+  },
+  {
+    "run": 6,
+    "variant": "candidate",
+    "id": "text 1.0/read all",
+    "mean_ns": 14484673.85570674,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 14415336.165187847,
+      "upper_bound": 14568705.78590443
+    },
+    "median_ns": 14477527.1875
+  },
+  {
+    "run": 6,
+    "variant": "candidate",
+    "id": "text 1.0/scan all",
+    "mean_ns": 9792206.451579796,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 9466913.596309254,
+      "upper_bound": 10262703.332515802
+    },
+    "median_ns": 9519633.264705881
+  },
+  {
+    "run": 6,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/commented records",
+    "mean_ns": 17047178.47034519,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 16638325.237667602,
+      "upper_bound": 17559366.118232045
+    },
+    "median_ns": 16562752.883333333
+  },
+  {
+    "run": 6,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/compact lists",
+    "mean_ns": 4341448.024290739,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 4325776.1373601705,
+      "upper_bound": 4369034.850150618
+    },
+    "median_ns": 4326814.747252747
+  },
+  {
+    "run": 6,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/pretty records",
+    "mean_ns": 15895222.455576543,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 15514122.04322888,
+      "upper_bound": 16445801.919498004
+    },
+    "median_ns": 15534014.34375
+  },
+  {
+    "run": 6,
+    "variant": "candidate",
+    "id": "text 1.0 whitespace/spaced lists",
+    "mean_ns": 4508470.572876077,
+    "mean_ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 4489043.56631484,
+      "upper_bound": 4544958.9356149
+    },
+    "median_ns": 4491887.814814815
+  }
+]

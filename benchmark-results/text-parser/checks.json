@@ -1,0 +1,22 @@
+{
+  "test-ion-hash": {
+    "passed": 9820,
+    "failed": 0,
+    "ignored": 1
+  },
+  "test-default": {
+    "passed": 1233,
+    "failed": 0,
+    "ignored": 1
+  },
+  "test-experimental": {
+    "passed": 9868,
+    "failed": 0,
+    "ignored": 1
+  },
+  "test-all-features": {
+    "passed": 9895,
+    "failed": 0,
+    "ignored": 1
+  }
+}
